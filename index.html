@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNI Contrato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.png" alt="logo">
+  <h1>Contrato</h1>
+ <p>1 - Contrato que fazem entre si, de um lado a empresa <B>CNI - Centro de Formação Proficional</B>, CNPJ (18.258.966/0001-99)
+  denominada <B>CONTRATADA</B>, estabelecida a Avenida da Igualdade, 109, Sobreloja - Setor Garavelo - Aparecida de Goiânia,
+  e do outro lado o aluno abaixo qualificado, denominado <B>CONTRATANTE</B>, celebram o presente contrato para cursos de 
+  informatica de acordo com as condições abaixo especificadas:</p>
+ 
+    <div>
+      <form action="">
+        <fieldset>
+         <legend>2 - Informações gerais do <B>CONTRATANTE</B></legend>
+           <label for="nome">Beneficiario:</label>
+           <input id="nome" type="text" size="45"> 
+           <label for="nascido">Data Nasc:</label>
+           <input id="nascido" type="date">  
+           <label for="contratante">Contratante:</label>
+           <input id="contratante" type="text" size="45">
+           <label for="nascido">Data Nasc:</label>
+           <input id="nascido" type="date"> 
+           <label for="numero">Contato:</label>
+           <input id="numero"  type="number">
+           <label for="RG">RG:</label>
+           <input id="RG" type="number">
+           <label for="CPF">CPF:</label>
+           <input id="CPF" type="number">
+           <label for="endereco">Endereço:</label>
+           <input id="endereco" type="text" size="80">
+           <label for="pai">Pai:</label>
+           <input id="pai" type="text" size="35">
+           <label for="mae">Mãe:</label>
+           <input id="mae" type="text" size="35">
+        </fieldset>
+      </form>
+    </div>
+        <canvas id='canvas' width='500' height='80'></canvas>
+        <div>
+            <button onclick='clearCanvas()'>Apagar</button>
+        </div>
+        <script src="java.js"></script>
+    <input type="button" value="FINALIZAR" onclick="window.print()">
+</body>
+</html>

@@ -1,0 +1,26 @@
+img { 
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 100px;
+}
+
+div {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -10px;
+}
+
+H1{
+    text-align: center;
+    margin-top: -30px;
+}
+
+#canvas
+{
+    border: 1px solid black;
+    margin: 9px 0 9px 0;
+    cursor: pointer;
+   
+    }
